@@ -4,7 +4,7 @@ Version: 0.5
 Release: %mkrel 1
 Group: System/Desktop
 License: GPLv2
-URL: http://www.meego.com
+URL: https://www.meego.com
 Source0: http://repo.meego.com/MeeGo/releases/1.1/netbook/repos/source/%{name}-%{version}.tar.bz2
 BuildRequires: intltool
 BuildRequires: gettext
