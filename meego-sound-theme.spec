@@ -6,6 +6,11 @@ Group: System/Desktop
 License: GPLv2
 URL: https://www.meego.com
 Source0: http://repo.meego.com/MeeGo/releases/1.1/netbook/repos/source/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: intltool
 BuildRequires: gettext
 Obsoletes: moblin-sound-theme < 0.5
